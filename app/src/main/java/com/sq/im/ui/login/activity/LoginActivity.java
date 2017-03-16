@@ -1,9 +1,11 @@
-package com.sq.im;
+package com.sq.im.ui.login.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.sq.im.R;
+
+public class LoginActivity extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {

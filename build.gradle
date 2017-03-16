@@ -13,6 +13,12 @@ buildscript {
 }
 
 allprojects {
+    ext{
+        compileSdkVersion = 24
+        buildToolsVersion = "25.0.0"
+        minSdkVersion = 22
+        targetSdkVersion = 24
+    }
     repositories {
         jcenter()
     }
